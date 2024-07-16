@@ -4,8 +4,7 @@
     {
       "src": "app/main.py",
       "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" },
-      "startCommand": "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }
   ],
   "routes": [
