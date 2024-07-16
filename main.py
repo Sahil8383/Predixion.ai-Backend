@@ -10,7 +10,8 @@ import schemas
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",  # React frontend
+    "http://localhost:3000",
+    "https://predixion-ai-frontend.vercel.app/"
 ]
 
 app.add_middleware(
