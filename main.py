@@ -11,7 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://predixion-ai-frontend.vercel.app/"
+    "https://predixion-ai-frontend.vercel.app"
 ]
 
 app.add_middleware(
